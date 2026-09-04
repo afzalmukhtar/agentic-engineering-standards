@@ -1,0 +1,8 @@
+# Local agent workflow scratch (subagent reports, review packages, briefs)
+.superpowers/
+
+# OS / editor noise
+.DS_Store
+*.swp
+*.swo
+*~
