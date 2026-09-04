@@ -32,12 +32,9 @@ git clone git@github.com:afzalmukhtar/agentic-engineering-standards.git \
   ~/.cursor/skills/agentic-engineering-standards
 ```
 
-Or symlink to a single clone:
-
-```bash
-ln -s ~/.claude/skills/agentic-engineering-standards \
-  ~/.cursor/skills/agentic-engineering-standards
-```
+Use a real directory for Cursor (not a symlink) so `/agentic-engineering-standards`
+and other slash commands are discovered reliably. Keep Claude and Cursor in sync
+with `rsync` after updates if you maintain both installs.
 
 ### Update
 
