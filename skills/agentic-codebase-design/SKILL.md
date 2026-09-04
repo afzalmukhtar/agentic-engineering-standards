@@ -1,6 +1,7 @@
 ---
 name: agentic-codebase-design
 description: Shape Context, specifications, and Kanban cards around independently testable vertical module seams.
+disable-model-invocation: true
 ---
 
 # Design Testable Vertical Boundaries

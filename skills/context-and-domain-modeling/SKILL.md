@@ -1,6 +1,7 @@
 ---
 name: context-and-domain-modeling
 description: Maintain the durable repository context and domain model.
+disable-model-invocation: true
 ---
 
 # Context and Domain Modeling

@@ -1,6 +1,7 @@
 ---
 name: debug-kanban
 description: Debug a reported defect as locked regression-test Kanban cards.
+disable-model-invocation: true
 ---
 
 # Debug Through Kanban

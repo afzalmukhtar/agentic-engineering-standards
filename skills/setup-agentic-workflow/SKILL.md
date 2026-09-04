@@ -1,6 +1,7 @@
 ---
 name: setup-agentic-workflow
 description: Establish the repository-local artifacts for the agentic engineering workflow.
+disable-model-invocation: true
 ---
 
 # Set Up Agentic Workflow

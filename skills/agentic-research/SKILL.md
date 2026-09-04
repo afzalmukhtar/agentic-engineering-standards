@@ -1,6 +1,7 @@
 ---
 name: agentic-research
 description: Investigate a question using cited primary sources and feed confirmed findings into the agentic lifecycle.
+disable-model-invocation: true
 ---
 
 # Research

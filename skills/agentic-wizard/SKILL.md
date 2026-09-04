@@ -1,6 +1,7 @@
 ---
 name: agentic-wizard
 description: Create a human-guided shell wizard for manual actions that an agent cannot safely perform.
+disable-model-invocation: true
 ---
 
 # Wizard

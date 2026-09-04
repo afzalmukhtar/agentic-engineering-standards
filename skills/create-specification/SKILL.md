@@ -1,6 +1,7 @@
 ---
 name: create-specification
 description: Use when confirmed Context facts and decisions must become a testable feature specification before delivery slicing.
+disable-model-invocation: true
 ---
 
 # Create a Feature Specification

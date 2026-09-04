@@ -1,6 +1,7 @@
 ---
 name: agentic-resolving-merge-conflicts
 description: Resolve in-progress merge or rebase conflicts without violating the approval-locked Kanban test lifecycle.
+disable-model-invocation: true
 ---
 
 # Resolve Merge Conflicts

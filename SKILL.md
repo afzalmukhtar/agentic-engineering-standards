@@ -1,9 +1,20 @@
 ---
 name: agentic-engineering-standards
-description: Route repository work through context, specification, vertical test-first Kanban delivery or debugging, and review.
+description: >-
+  Unified engineering workflow: durable Context, Specification, vertical
+  test-first Kanban delivery, debug Kanban, and review. Use when planning
+  features, grilling requirements, writing specs or Kanban tickets, implementing
+  vertical slices with locked acceptance tests, debugging with regression locks,
+  or reviewing completed cards. Invoke explicitly via /agentic-engineering-standards
+  or route with workflow-router when the stage is unclear.
+disable-model-invocation: true
 ---
 
 # Agentic Engineering Standards
+
+**When this skill is invoked, read this entire file and follow it before any
+other action.** Route through the bundle below; do not improvise a competing
+workflow.
 
 Route repository work through the completed bundle:
 

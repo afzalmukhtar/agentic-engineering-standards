@@ -1,6 +1,7 @@
 ---
 name: kanban-code-review
 description: Independently review completed locked-test Kanban cards and consolidated waves.
+disable-model-invocation: true
 ---
 
 # Review Kanban Delivery

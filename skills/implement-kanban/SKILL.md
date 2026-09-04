@@ -1,6 +1,7 @@
 ---
 name: implement-kanban
 description: Use to execute approved Kanban cards as reviewed, test-locked vertical slices through safe worktree waves.
+disable-model-invocation: true
 ---
 
 # Implement Kanban

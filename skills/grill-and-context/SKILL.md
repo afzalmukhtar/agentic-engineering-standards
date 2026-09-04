@@ -1,6 +1,7 @@
 ---
 name: grill-and-context
 description: Interview users for confirmed repository context and durable architectural decisions.
+disable-model-invocation: true
 ---
 
 # Grill and Build Context

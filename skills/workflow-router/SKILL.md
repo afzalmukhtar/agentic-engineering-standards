@@ -1,6 +1,7 @@
 ---
 name: workflow-router
 description: Choose the appropriate bundle workflow after its required Context and approval gates.
+disable-model-invocation: true
 ---
 
 # Route Workflow Work

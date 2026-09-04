@@ -1,6 +1,7 @@
 ---
 name: create-kanban
 description: Use when an approved feature specification needs ownership-safe vertical delivery cards and a dependency-aware Kanban plan.
+disable-model-invocation: true
 ---
 
 # Create a Feature Kanban

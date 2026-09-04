@@ -1,6 +1,7 @@
 ---
 name: agentic-prototype
 description: Build a clearly throwaway prototype to answer one design question before planning a feature.
+disable-model-invocation: true
 ---
 
 # Prototype
