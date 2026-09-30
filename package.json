@@ -23,17 +23,24 @@
     "bin/"
   ],
   "keywords": [
+    "claude-skills",
+    "claude-code",
+    "cursor-rules",
+    "cursor-agent",
+    "antigravity-skills",
+    "gemini-agent",
+    "coding-agent",
     "ai-agent",
+    "agentic-engineering",
     "coding-standards",
-    "skill",
-    "claude",
-    "cursor",
-    "antigravity",
-    "gemini",
-    "agentic",
+    "clean-code",
+    "anti-slop",
+    "vertical-tdd",
     "tdd",
     "kanban",
-    "vertical-slice"
+    "spec-driven-development",
+    "code-quality",
+    "pair-programming"
   ],
   "type": "module",
   "engines": {
