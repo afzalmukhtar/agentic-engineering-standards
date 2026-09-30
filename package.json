@@ -1,0 +1,42 @@
+{
+  "name": "agentic-engineering-standards",
+  "version": "1.0.0",
+  "description": "Skills for AI Coding Agents — durable vertical TDD Kanban workflow for Claude, Cursor, and Antigravity",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afzalmukhtar/agentic-engineering-standards.git"
+  },
+  "homepage": "https://github.com/afzalmukhtar/agentic-engineering-standards#readme",
+  "bugs": {
+    "url": "https://github.com/afzalmukhtar/agentic-engineering-standards/issues"
+  },
+  "author": "Afzal Mukhtar",
+  "bin": {
+    "agentic-engineering-standards": "./bin/install.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "plugin.json",
+    "skills/",
+    "references/",
+    "bin/"
+  ],
+  "keywords": [
+    "ai-agent",
+    "coding-standards",
+    "skill",
+    "claude",
+    "cursor",
+    "antigravity",
+    "gemini",
+    "agentic",
+    "tdd",
+    "kanban",
+    "vertical-slice"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}

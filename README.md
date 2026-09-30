@@ -18,27 +18,66 @@ Context → Specification → Kanban → vertical TDD or debug → review and co
 
 ## Install
 
-### Claude Code
+### Quick Install (npx)
 
 ```bash
-git clone git@github.com:afzalmukhtar/agentic-engineering-standards.git \
-  ~/.claude/skills/agentic-engineering-standards
+# Gemini / Antigravity
+npx agentic-engineering-standards gemini
+
+# Claude Code
+npx agentic-engineering-standards claude
+
+# Cursor
+npx agentic-engineering-standards cursor
+
+# All agents at once
+npx agentic-engineering-standards all
 ```
 
-### Cursor
+### Antigravity Plugin Mode
+
+Install as an Antigravity plugin (managed via settings UI, enable/disable support):
 
 ```bash
+npx agentic-engineering-standards gemini --plugin
+```
+
+### Git Clone (alternative)
+
+```bash
+# Claude Code
+git clone git@github.com:afzalmukhtar/agentic-engineering-standards.git \
+  ~/.claude/skills/agentic-engineering-standards
+
+# Cursor
 git clone git@github.com:afzalmukhtar/agentic-engineering-standards.git \
   ~/.cursor/skills/agentic-engineering-standards
+
+# Gemini / Antigravity (as skill)
+git clone git@github.com:afzalmukhtar/agentic-engineering-standards.git \
+  ~/.gemini/config/skills/agentic-engineering-standards
+
+# Gemini / Antigravity (as plugin)
+git clone git@github.com:afzalmukhtar/agentic-engineering-standards.git \
+  ~/.gemini/config/plugins/agentic-engineering-standards
 ```
 
 Use a real directory for Cursor (not a symlink) so `/agentic-engineering-standards`
-and other slash commands are discovered reliably. Keep Claude and Cursor in sync
-with `rsync` after updates if you maintain both installs.
+and other slash commands are discovered reliably.
+
+### Uninstall
+
+```bash
+npx agentic-engineering-standards claude --uninstall
+```
 
 ### Update
 
 ```bash
+# npx always fetches the latest from npm
+npx agentic-engineering-standards@latest gemini
+
+# or git pull if installed via clone
 git -C ~/.claude/skills/agentic-engineering-standards pull
 ```
 

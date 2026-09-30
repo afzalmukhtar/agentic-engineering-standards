@@ -1,6 +1,9 @@
 # Local agent workflow scratch (subagent reports, review packages, briefs)
 .superpowers/
 
+# npm
+node_modules/
+
 # OS / editor noise
 .DS_Store
 *.swp
