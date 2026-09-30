@@ -13,7 +13,7 @@
   },
   "author": "Afzal Mukhtar",
   "bin": {
-    "agentic-engineering-standards": "./bin/install.mjs"
+    "agentic-engineering-standards": "bin/install.mjs"
   },
   "files": [
     "SKILL.md",
